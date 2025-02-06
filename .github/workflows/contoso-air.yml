@@ -43,7 +43,7 @@ env:
   CONTAINER_NAME: image-workflow-1738864494266
   CLUSTER_RESOURCE_GROUP: qpetraroia-rg
   CLUSTER_NAME: qpetraroia-cluster
-  DEPLOYMENT_MANIFEST_PATH: contoso-air/src/web/manifests
+  DEPLOYMENT_MANIFEST_PATH: ./manifests
   DOCKER_FILE: src/web/Dockerfile
   BUILD_CONTEXT_PATH: ./src/web
   NAMESPACE: sample-app-namespace-1738864494278
